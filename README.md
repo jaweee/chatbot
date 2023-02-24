@@ -56,7 +56,44 @@ git的一般操作是挺简单的，add、commit、push
 创建分支，用idea是不难的，直接有一个new branch的操作，添加你所想要的分支
 >>>>>>> 23_jaweee_zsxq_api
 
+<<<<<<< HEAD
 然后可以使用Command + k 来推送`当前分支的新内容到远程仓库
+=======
+## 三、领域开发
+
+### 1. 目录结构
+
+```text
+domain
+    ├── package-info.java
+    └── zsxq
+        ├── IZsxqApi.java
+        ├── model
+        │   ├── aggregates
+        │   │   └── UnAnsweredQuestionsAggregates.java
+        │   ├── req
+        │   │   ├── AnswerReq.java
+        │   │   └── ReqData.java
+        │   ├── res
+        │   │   ├── AnswerRes.java
+        │   │   └── RespData.java
+        │   └── vo
+        │       ├── Group.java
+        │       ├── Owner.java
+        │       ├── OwnerDetail.java
+        │       ├── Question.java
+        │       ├── Questionee.java
+        │       ├── Topics.java
+        │       └── UserSpecific.java
+        └── service
+            └── ZsxqApi.java
+```
+
+
+### 2. 
+
+
+>>>>>>> 23_jaweee_zsxq_domain
 
 ## 二、调用接口，http消息发送和获取
 
