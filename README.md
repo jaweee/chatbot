@@ -52,5 +52,39 @@ git的一般操作是挺简单的，add、commit、push
 
 
 
+## 三、领域开发
+
+### 1. 目录结构
+
+```text
+domain
+    ├── package-info.java
+    └── zsxq
+        ├── IZsxqApi.java
+        ├── model
+        │   ├── aggregates
+        │   │   └── UnAnsweredQuestionsAggregates.java
+        │   ├── req
+        │   │   ├── AnswerReq.java
+        │   │   └── ReqData.java
+        │   ├── res
+        │   │   ├── AnswerRes.java
+        │   │   └── RespData.java
+        │   └── vo
+        │       ├── Group.java
+        │       ├── Owner.java
+        │       ├── OwnerDetail.java
+        │       ├── Question.java
+        │       ├── Questionee.java
+        │       ├── Topics.java
+        │       └── UserSpecific.java
+        └── service
+            └── ZsxqApi.java
+```
+
+
+### 2. 
+
+
 
 
