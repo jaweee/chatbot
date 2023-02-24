@@ -27,4 +27,8 @@ hs_err_pid*
 /*/*.iml
 /.idea/
 
+<<<<<<< HEAD
 /chatbot-interfaces/target/
+=======
+/chatbot-interfaces/target/
+>>>>>>> 23_jaweee_zsxq_api
